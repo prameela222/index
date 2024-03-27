@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>document</title>
+<style>
+.column{
+float:left;
+width:33.3%;
+padding:5px;
+}
+/clear floats after image containers */
+.row::after{
+content:"";
+clear:both;
+display:table;
+}
+</style>
+</head>
+<body>
+<h2>image side by side</h2>
+<p>float image side by side</p>
+<hr>
+<div class ="row">
+<div class ="column">
+<img src="C:\Users\lakshman\OneDrive\Desktop\book.jpg"height=400 width=400>
+</div>
+<div class ="column">
+<img src="C:\Users\lakshman\OneDrive\Desktop\pen.jpg"height=400 width=400>
+</div>
+</body>
+</html>
